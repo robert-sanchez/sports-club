@@ -1,7 +1,33 @@
 /* Universal Styles */
 
 body {
+    background-color: hsla(199, 46%, 65%, 1);
+    box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
     margin: 0;
+    text-align: center;
+}
+
+/* Header Styles */
+header {
+    background-color: white;
+    opacity: 0.9;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1em;
+}
+
+.nav-item {
+    color: black;
+    text-decoration: none;
+}
+
+/* Main Content Styles */
+
+h1 {
+    color: white;
 }
