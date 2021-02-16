@@ -1,7 +1,6 @@
 /* Universal Styles */
 
 body {
-    background-color: hsla(199, 46%, 65%, 1);
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
@@ -9,10 +8,20 @@ body {
     text-align: center;
 }
 
+h2, h3, h4, h5, h6 {
+    color: black;
+    margin: 0;
+    padding: 1em;
+}
+
 /* Header Styles */
 header {
-    background-color: white;
+    background-color: lightgray;
+    height: 57px;
     opacity: 0.9;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 nav {
@@ -28,6 +37,26 @@ nav {
 
 /* Main Content Styles */
 
+.main {
+    margin-top: 57px;
+}
+
 h1 {
+    background-color: black;
     color: white;
+    margin: 0;
+    padding: 1.5em;
+}
+
+/* Schedule Styles */
+
+.schedule-item {
+    margin: 0 auto;
+    margin-bottom: 1em;
+    padding: .75em;
+    width: 90%;
+}
+
+.schedule-item img {
+    width: 85%;
 }
