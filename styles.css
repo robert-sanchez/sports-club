@@ -57,6 +57,12 @@ h1 {
     width: 90%;
 }
 
+.heading {
+    margin-bottom: 0;
+    padding: 0;
+    width: 100%;
+}
+
 .schedule-item img {
     width: 85%;
 }
@@ -86,4 +92,56 @@ h1 {
 
 .opinion p {
     margin: 0;
+}
+
+/* Media Queries */
+
+@media only screen and (min-width: 768px) {
+
+    /* Schedule Section */
+
+    #schedule {
+        display: flex;
+    }
+
+    .schedule-item {
+        margin: 0;
+    }
+
+    .heading {
+        border-right: 1px solid black;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 30%;
+    }
+
+    /* Opinion Section */
+
+    #opinions {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-evenly;
+        height: 300px;
+        width: 100%;
+    }
+
+    #opinions h2 {
+        flex-grow: 1;
+        height: fit-content;
+        margin: auto;
+    }
+
+    .opinion-container {
+        display: flex;
+        flex-wrap: wrap;
+        flex-grow: 2;
+        padding: 0;
+    }
+
+    .opinion {
+        margin: 1em;
+        padding: .5em;
+        width: 30%;
+    }
 }
