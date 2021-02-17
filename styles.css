@@ -60,3 +60,30 @@ h1 {
 .schedule-item img {
     width: 85%;
 }
+
+/* Opinion Styles */
+
+#opinions {
+    background-color: black;
+    color: white;
+}
+
+#opinions h2 {
+    color: white;
+}
+
+.opinion-container {
+    padding-bottom: 1em;
+}
+
+.opinion {
+    border: 1px solid white;
+    margin: 0 auto 1em;
+    opacity: 0.9;
+    padding: 1em;
+    width: 60%;
+}
+
+.opinion p {
+    margin: 0;
+}
